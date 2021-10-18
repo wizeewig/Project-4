@@ -1,0 +1,67 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="#FFCCCB">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_numbers">
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="14dp"
+        android:text="@string/category_numbers"
+        android:textSize="22sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="?android:attr/selectableItemBackground"/>
+</FrameLayout>
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/category_family">
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="14dp"
+        android:textSize="22sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_family" />
+</FrameLayout>
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/category_colors">
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="14dp"
+        android:textSize="22sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_colors" />
+</FrameLayout>
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/category_phrases">
+    <TextView
+        android:id="@+id/phrases"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="14dp"
+        android:textSize="22sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_phrases" />
+</FrameLayout>
+</LinearLayout>
